@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CDA0A3518F5D4DC00067EC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA0A3418F5D4DC00067EC7 /* Foundation.framework */; };
+		4CDA0A3718F5D4DC00067EC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA0A3618F5D4DC00067EC7 /* CoreGraphics.framework */; };
+		4CDA0A3918F5D4DC00067EC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA0A3818F5D4DC00067EC7 /* UIKit.framework */; };
+		4CDA0A3B18F5D4DC00067EC7 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA0A3A18F5D4DC00067EC7 /* SpriteKit.framework */; };
+		4CDA0A4118F5D4DC00067EC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA0A3F18F5D4DC00067EC7 /* InfoPlist.strings */; };
+		4CDA0A4318F5D4DC00067EC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA0A4218F5D4DC00067EC7 /* main.m */; };
+		4CDA0A4718F5D4DC00067EC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA0A4618F5D4DC00067EC7 /* AppDelegate.m */; };
+		4CDA0A4A18F5D4DC00067EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA0A4818F5D4DC00067EC7 /* Main.storyboard */; };
+		4CDA0A4D18F5D4DC00067EC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA0A4C18F5D4DC00067EC7 /* ViewController.m */; };
+		4CDA0A5018F5D4DC00067EC7 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA0A4F18F5D4DC00067EC7 /* MyScene.m */; };
+		4CDA0A5218F5D4DC00067EC7 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA0A5118F5D4DC00067EC7 /* Spaceship.png */; };
+		4CDA0A5418F5D4DC00067EC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA0A5318F5D4DC00067EC7 /* Images.xcassets */; };
+		4CDA0A5B18F5D4DD00067EC7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA0A5A18F5D4DD00067EC7 /* XCTest.framework */; };
+		4CDA0A5C18F5D4DD00067EC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA0A3418F5D4DC00067EC7 /* Foundation.framework */; };
+		4CDA0A5D18F5D4DD00067EC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA0A3818F5D4DC00067EC7 /* UIKit.framework */; };
+		4CDA0A6518F5D4DD00067EC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA0A6318F5D4DD00067EC7 /* InfoPlist.strings */; };
+		4CDA0A6718F5D4DD00067EC7 /* Hop_Hero_HellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA0A6618F5D4DD00067EC7 /* Hop_Hero_HellTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CDA0A5E18F5D4DD00067EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDA0A2918F5D4DC00067EC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDA0A3018F5D4DC00067EC7;
+			remoteInfo = "Hop Hero Hell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CDA0A3118F5D4DC00067EC7 /* Hop Hero Hell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hop Hero Hell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDA0A3418F5D4DC00067EC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CDA0A3618F5D4DC00067EC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CDA0A3818F5D4DC00067EC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CDA0A3A18F5D4DC00067EC7 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4CDA0A3E18F5D4DC00067EC7 /* Hop Hero Hell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hop Hero Hell-Info.plist"; sourceTree = "<group>"; };
+		4CDA0A4018F5D4DC00067EC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CDA0A4218F5D4DC00067EC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CDA0A4418F5D4DC00067EC7 /* Hop Hero Hell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hop Hero Hell-Prefix.pch"; sourceTree = "<group>"; };
+		4CDA0A4518F5D4DC00067EC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CDA0A4618F5D4DC00067EC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CDA0A4918F5D4DC00067EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CDA0A4B18F5D4DC00067EC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CDA0A4C18F5D4DC00067EC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CDA0A4E18F5D4DC00067EC7 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		4CDA0A4F18F5D4DC00067EC7 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		4CDA0A5118F5D4DC00067EC7 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		4CDA0A5318F5D4DC00067EC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CDA0A5918F5D4DD00067EC7 /* Hop Hero HellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hop Hero HellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDA0A5A18F5D4DD00067EC7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4CDA0A6218F5D4DD00067EC7 /* Hop Hero HellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hop Hero HellTests-Info.plist"; sourceTree = "<group>"; };
+		4CDA0A6418F5D4DD00067EC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CDA0A6618F5D4DD00067EC7 /* Hop_Hero_HellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hop_Hero_HellTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CDA0A2E18F5D4DC00067EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDA0A3718F5D4DC00067EC7 /* CoreGraphics.framework in Frameworks */,
+				4CDA0A3918F5D4DC00067EC7 /* UIKit.framework in Frameworks */,
+				4CDA0A3B18F5D4DC00067EC7 /* SpriteKit.framework in Frameworks */,
+				4CDA0A3518F5D4DC00067EC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDA0A5618F5D4DD00067EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDA0A5B18F5D4DD00067EC7 /* XCTest.framework in Frameworks */,
+				4CDA0A5D18F5D4DD00067EC7 /* UIKit.framework in Frameworks */,
+				4CDA0A5C18F5D4DD00067EC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CDA0A2818F5D4DC00067EC7 = {
+			isa = PBXGroup;
+			children = (
+				4CDA0A3C18F5D4DC00067EC7 /* Hop Hero Hell */,
+				4CDA0A6018F5D4DD00067EC7 /* Hop Hero HellTests */,
+				4CDA0A3318F5D4DC00067EC7 /* Frameworks */,
+				4CDA0A3218F5D4DC00067EC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CDA0A3218F5D4DC00067EC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA0A3118F5D4DC00067EC7 /* Hop Hero Hell.app */,
+				4CDA0A5918F5D4DD00067EC7 /* Hop Hero HellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CDA0A3318F5D4DC00067EC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA0A3418F5D4DC00067EC7 /* Foundation.framework */,
+				4CDA0A3618F5D4DC00067EC7 /* CoreGraphics.framework */,
+				4CDA0A3818F5D4DC00067EC7 /* UIKit.framework */,
+				4CDA0A3A18F5D4DC00067EC7 /* SpriteKit.framework */,
+				4CDA0A5A18F5D4DD00067EC7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CDA0A3C18F5D4DC00067EC7 /* Hop Hero Hell */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA0A4518F5D4DC00067EC7 /* AppDelegate.h */,
+				4CDA0A4618F5D4DC00067EC7 /* AppDelegate.m */,
+				4CDA0A4818F5D4DC00067EC7 /* Main.storyboard */,
+				4CDA0A4B18F5D4DC00067EC7 /* ViewController.h */,
+				4CDA0A4C18F5D4DC00067EC7 /* ViewController.m */,
+				4CDA0A4E18F5D4DC00067EC7 /* MyScene.h */,
+				4CDA0A4F18F5D4DC00067EC7 /* MyScene.m */,
+				4CDA0A5118F5D4DC00067EC7 /* Spaceship.png */,
+				4CDA0A5318F5D4DC00067EC7 /* Images.xcassets */,
+				4CDA0A3D18F5D4DC00067EC7 /* Supporting Files */,
+			);
+			path = "Hop Hero Hell";
+			sourceTree = "<group>";
+		};
+		4CDA0A3D18F5D4DC00067EC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA0A3E18F5D4DC00067EC7 /* Hop Hero Hell-Info.plist */,
+				4CDA0A3F18F5D4DC00067EC7 /* InfoPlist.strings */,
+				4CDA0A4218F5D4DC00067EC7 /* main.m */,
+				4CDA0A4418F5D4DC00067EC7 /* Hop Hero Hell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CDA0A6018F5D4DD00067EC7 /* Hop Hero HellTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA0A6618F5D4DD00067EC7 /* Hop_Hero_HellTests.m */,
+				4CDA0A6118F5D4DD00067EC7 /* Supporting Files */,
+			);
+			path = "Hop Hero HellTests";
+			sourceTree = "<group>";
+		};
+		4CDA0A6118F5D4DD00067EC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA0A6218F5D4DD00067EC7 /* Hop Hero HellTests-Info.plist */,
+				4CDA0A6318F5D4DD00067EC7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CDA0A3018F5D4DC00067EC7 /* Hop Hero Hell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDA0A6A18F5D4DD00067EC7 /* Build configuration list for PBXNativeTarget "Hop Hero Hell" */;
+			buildPhases = (
+				4CDA0A2D18F5D4DC00067EC7 /* Sources */,
+				4CDA0A2E18F5D4DC00067EC7 /* Frameworks */,
+				4CDA0A2F18F5D4DC00067EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hop Hero Hell";
+			productName = "Hop Hero Hell";
+			productReference = 4CDA0A3118F5D4DC00067EC7 /* Hop Hero Hell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CDA0A5818F5D4DD00067EC7 /* Hop Hero HellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDA0A6D18F5D4DD00067EC7 /* Build configuration list for PBXNativeTarget "Hop Hero HellTests" */;
+			buildPhases = (
+				4CDA0A5518F5D4DD00067EC7 /* Sources */,
+				4CDA0A5618F5D4DD00067EC7 /* Frameworks */,
+				4CDA0A5718F5D4DD00067EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDA0A5F18F5D4DD00067EC7 /* PBXTargetDependency */,
+			);
+			name = "Hop Hero HellTests";
+			productName = "Hop Hero HellTests";
+			productReference = 4CDA0A5918F5D4DD00067EC7 /* Hop Hero HellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CDA0A2918F5D4DC00067EC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = micah;
+				TargetAttributes = {
+					4CDA0A5818F5D4DD00067EC7 = {
+						TestTargetID = 4CDA0A3018F5D4DC00067EC7;
+					};
+				};
+			};
+			buildConfigurationList = 4CDA0A2C18F5D4DC00067EC7 /* Build configuration list for PBXProject "Hop Hero Hell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CDA0A2818F5D4DC00067EC7;
+			productRefGroup = 4CDA0A3218F5D4DC00067EC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDA0A3018F5D4DC00067EC7 /* Hop Hero Hell */,
+				4CDA0A5818F5D4DD00067EC7 /* Hop Hero HellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CDA0A2F18F5D4DC00067EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDA0A4118F5D4DC00067EC7 /* InfoPlist.strings in Resources */,
+				4CDA0A5418F5D4DC00067EC7 /* Images.xcassets in Resources */,
+				4CDA0A5218F5D4DC00067EC7 /* Spaceship.png in Resources */,
+				4CDA0A4A18F5D4DC00067EC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDA0A5718F5D4DD00067EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDA0A6518F5D4DD00067EC7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CDA0A2D18F5D4DC00067EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDA0A5018F5D4DC00067EC7 /* MyScene.m in Sources */,
+				4CDA0A4D18F5D4DC00067EC7 /* ViewController.m in Sources */,
+				4CDA0A4718F5D4DC00067EC7 /* AppDelegate.m in Sources */,
+				4CDA0A4318F5D4DC00067EC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDA0A5518F5D4DD00067EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDA0A6718F5D4DD00067EC7 /* Hop_Hero_HellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CDA0A5F18F5D4DD00067EC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDA0A3018F5D4DC00067EC7 /* Hop Hero Hell */;
+			targetProxy = 4CDA0A5E18F5D4DD00067EC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CDA0A3F18F5D4DC00067EC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDA0A4018F5D4DC00067EC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CDA0A4818F5D4DC00067EC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDA0A4918F5D4DC00067EC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CDA0A6318F5D4DD00067EC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDA0A6418F5D4DD00067EC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CDA0A6818F5D4DD00067EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CDA0A6918F5D4DD00067EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CDA0A6B18F5D4DD00067EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hop Hero Hell/Hop Hero Hell-Prefix.pch";
+				INFOPLIST_FILE = "Hop Hero Hell/Hop Hero Hell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CDA0A6C18F5D4DD00067EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hop Hero Hell/Hop Hero Hell-Prefix.pch";
+				INFOPLIST_FILE = "Hop Hero Hell/Hop Hero Hell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4CDA0A6E18F5D4DD00067EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hop Hero Hell.app/Hop Hero Hell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hop Hero Hell/Hop Hero Hell-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hop Hero HellTests/Hop Hero HellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4CDA0A6F18F5D4DD00067EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hop Hero Hell.app/Hop Hero Hell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hop Hero Hell/Hop Hero Hell-Prefix.pch";
+				INFOPLIST_FILE = "Hop Hero HellTests/Hop Hero HellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CDA0A2C18F5D4DC00067EC7 /* Build configuration list for PBXProject "Hop Hero Hell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDA0A6818F5D4DD00067EC7 /* Debug */,
+				4CDA0A6918F5D4DD00067EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDA0A6A18F5D4DD00067EC7 /* Build configuration list for PBXNativeTarget "Hop Hero Hell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDA0A6B18F5D4DD00067EC7 /* Debug */,
+				4CDA0A6C18F5D4DD00067EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CDA0A6D18F5D4DD00067EC7 /* Build configuration list for PBXNativeTarget "Hop Hero HellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDA0A6E18F5D4DD00067EC7 /* Debug */,
+				4CDA0A6F18F5D4DD00067EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CDA0A2918F5D4DC00067EC7 /* Project object */;
+}
